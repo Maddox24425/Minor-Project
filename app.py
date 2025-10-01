@@ -11,6 +11,6 @@ def predict_sentiment(text):
     else:
         return "Negative"
 
-text=input("Enter Text Here")
+text=input("Enter Text Here:")
 sentiment = predict_sentiment(text)
 print(f"The predicted sentiment is: {sentiment}")
